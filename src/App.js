@@ -1,12 +1,14 @@
+/* eslint-disable */
 import Calculator from './components/Calculator';
 import './index.css';
+import React, { Component } from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <Calculator />
-    </div>
-  );
+export default class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Calculator />
+      </div>
+    );
+  }
 }
-
-export default App;
