@@ -86,17 +86,17 @@ export default class Calculator extends Component {
         <div className="numbers-container">
           <Button
             Addclass="primary"
+            buttonName="AC"
+            handleClick={this.handleClick}
+          />
+          <Button
+            Addclass="primary"
             buttonName="+/-"
             handleClick={this.handleClick}
           />
           <Button
             Addclass="primary"
             buttonName="%"
-            handleClick={this.handleClick}
-          />
-          <Button
-            Addclass="primary"
-            buttonName="AC"
             handleClick={this.handleClick}
           />
           <Button
