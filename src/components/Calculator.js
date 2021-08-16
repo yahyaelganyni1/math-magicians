@@ -1,4 +1,5 @@
-/* eslint-disable */
+/* eslint linebreak-style: ["error", "windows"] */
+
 import { useState } from 'react';
 import Button from './Button';
 import calculate from '../logic/calculate';
@@ -24,7 +25,7 @@ const Calculator = () => {
         className="answer"
         disabled="disabled"
         onChange={onChange}
-      ></input>
+      />
       <div className="numbers-container">
         <Button Addclass="primary" buttonName="AC" handleClick={handleClick} />
         <Button Addclass="primary" buttonName="+/-" handleClick={handleClick} />

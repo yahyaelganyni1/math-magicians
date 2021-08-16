@@ -1,12 +1,20 @@
-/* eslint-disable */
-import React, { Component } from 'react';
+/* eslint linebreak-style: ["error", "windows"] */
 
-export default class Button extends Component {
-  render() {
-    return (
-      <button className={this.props.Addclass} onClick={this.props.handleClick}>
-        {this.props.buttonName}
-      </button>
-    );
-  }
+import React from 'react';
+import PropTypes from 'prop-types';
+
+export default function Button({ Addclass, handleClick, buttonName }) {
+  return (
+    <button type="button" className={Addclass} onClick={handleClick}>
+      {buttonName}
+    </button>
+  );
 }
+
+Button.propTypes = {
+  Addclass: PropTypes.string,
+  handleClick: PropTypes.string,
+  buttonName: PropTypes.string,
+};
+
+Button.defaultProps = { Addclass: '', handleClick: '', buttonName: '' };
