@@ -17,4 +17,4 @@ Button.propTypes = {
   buttonName: PropTypes.string,
 };
 
-Button.defaultProps = { Addclass: '', handleClick: '', buttonName: '' };
+Button.defaultProps = { Addclass: '', handleClick: Button, buttonName: '' };
