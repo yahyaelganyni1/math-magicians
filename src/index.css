@@ -8,6 +8,10 @@
   transform: translate(-50%, -50%);
 }
 
+.calculator-header h3 {
+  font-size: 2em;
+}
+
 .zero {
   grid-row: 5;
   grid-column: 1 / span 2;
@@ -57,4 +61,43 @@ button {
 .secondary:active {
   background-color: #7c430d;
   color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 1em;
+}
+
+ul {
+  display: flex;
+}
+
+ul li {
+  list-style-type: none;
+  margin: 0.5em;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.home {
+  width: 60%;
+  margin: 3em;
+}
+
+.home h2 {
+  font-size: 3em;
+}
+
+.home p {
+  font-size: 2em;
+}
+
+.quote {
+  margin: 7em 0.6em;
+  font-size: 2.5em;
+  text-align: center;
 }

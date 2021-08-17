@@ -1,4 +1,3 @@
-/* eslint-disable */
 import { useState } from 'react';
 import Button from './Button';
 import calculate from '../logic/calculate';
@@ -18,13 +17,17 @@ const Calculator = () => {
   const { next, total } = state;
   return (
     <div className="calculator-container">
+      <div className="calculator-header">
+        <h3>Lets Do Some Math</h3>
+      </div>
+
       <input
         type="text"
         value={next || total || '0'}
         className="answer"
         disabled="disabled"
         onChange={onChange}
-      ></input>
+      />
       <div className="numbers-container">
         <Button Addclass="primary" buttonName="AC" handleClick={handleClick} />
         <Button Addclass="primary" buttonName="+/-" handleClick={handleClick} />
