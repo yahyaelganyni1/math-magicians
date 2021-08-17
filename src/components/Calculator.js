@@ -19,6 +19,10 @@ const Calculator = () => {
   const { next, total } = state;
   return (
     <div className="calculator-container">
+      <div className="calculator-header">
+        <h3>Lets Do Some Math</h3>
+      </div>
+
       <input
         type="text"
         value={next || total || '0'}

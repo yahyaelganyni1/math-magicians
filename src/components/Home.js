@@ -4,7 +4,7 @@ import React from 'react';
 
 function Home() {
   return (
-    <div>
+    <div className="home">
       <h2>welcome to our page</h2>
       <p>
         Components are the heart of Reacts powerful, declarative programming
