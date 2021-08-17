@@ -1,6 +1,4 @@
-/* eslint linebreak-style: ["error", "windows"] */
-
-import React from 'react'; // \r\n
+import React from 'react';
 
 export default function Quote() {
   return (
@@ -8,5 +6,5 @@ export default function Quote() {
       What is mathematics? It is only a systematic effort of solving puzzles
       posed by nature.
     </h3>
-  ); // \r\n
+  );
 }
